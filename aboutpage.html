@@ -894,18 +894,18 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="{{ url_for('static', filename='logo.png') }}" alt="Lawsumm logo">
+                <img src="./static/logo.png" alt="Lawsumm logo">
                 <strong>LawSumm</strong>
             </div>
             <ul class="nav-links">
                 <li><a href="{{ url_for('home') }}" class="active">Home</a></li>
         <li><a href="{{ url_for('about') }}">About</a></li>
         <li><a href="{{ url_for('summarization') }}">Summarization</a></li>
-                <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+                <li><a href="./contactpage.html">Contact Us</a></li>
             </ul>
             <div class="auth-buttons">
-                <a href="{{ url_for('login') }}" class="btn login">LogIn</a>
-    <a href="{{ url_for('signup') }}" class="btn signup">SignUp</a>
+                <a href="./loginpage.html" class="btn login">LogIn</a>
+    <a href="./signuppage.html" class="btn signup">SignUp</a>
             </div>
             <div class="menu-toggle">&#9776;</div>
         </nav>
